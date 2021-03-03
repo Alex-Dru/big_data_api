@@ -5,6 +5,7 @@ We created an API which links you to a pokemon based on IMC comparison.
 ## Usage: run the following commands
 
 ```
+minikube start
 kubectl create deployment hello-minikube --image=alexdru/tpgreg
 kubectl expose deployment hello-minikube --type=NodePort --port=5000
 ```
