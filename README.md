@@ -15,3 +15,9 @@ When the pod is running (check your pod's status with the command: kubectl get p
 ```
 minikube service hello-minikube --url
 ```
+
+Feel free to re-scale your deployment with the following command:
+
+```
+kubectl scale --replicas=<number_of_replicas> deployment hello-minikube
+```
